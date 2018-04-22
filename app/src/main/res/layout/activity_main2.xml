@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#8ccfbb"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+
+
+        android:background="#8ccfbb"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/passwordup2"
+            android:layout_width="259dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/passwordin"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border_txt"
+            android:gravity="center_vertical"
+            android:hint="Password"
+            android:textColorHint="@color/pink"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/repasswordup2"
+
+            android:layout_width="259dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="151dp"
+            android:background="@drawable/border_txt"
+            android:gravity="center_vertical"
+            android:hint="  Retype Password"
+            android:textColorHint="@color/pink"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameup2"
+            android:layout_width="259dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="193dp"
+            android:background="@drawable/border_txt"
+            android:gravity="center_vertical"
+            android:hint="  Name"
+            android:textColorHighlight="@color/pink"
+            android:textColorHint="@color/pink"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="203dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/mmmmm" />
+
+        <TextView
+            android:id="@+id/passwordin"
+            android:layout_width="259dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="192dp"
+            android:background="@drawable/border_txt"
+            android:hint="  Password"
+            android:textColorHint="@color/pink"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/emailin"
+            android:layout_width="259dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/border_txt"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="259dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/border_txt"
+            android:gravity="center_vertical"
+            android:hint="  Emil"
+            android:textColorHint="@color/pink"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/signin22"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="102dp"
+            android:autoText="true"
+            android:background="@drawable/border"
+            android:cursorVisible="true"
+
+            android:text="Sign In"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/rsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/border"
+
+            android:text="Sign Up"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/white"
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:background="#8ccfbb"
+
+            android:text="Have Already?"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/pink"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
